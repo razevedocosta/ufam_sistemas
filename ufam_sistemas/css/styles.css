@@ -6077,7 +6077,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #2c3e50 !important;
+  background-color: #00420C !important; /* barra superior */
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
