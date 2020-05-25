@@ -142,6 +142,55 @@
             </div>
         </section>
 
+        <!-- Contact Section-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contato</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Form-->
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
+                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Nome</label><input class="form-control" id="name" type="text" placeholder="Nome" required="required" data-validation-required-message="Informe o seu nome." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Email</label><input class="form-control" id="email" type="email" placeholder="Email" required="required" data-validation-required-message="Informe o seu email." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Celular</label><input class="form-control" id="phone" type="tel" placeholder="Celular" required="required" data-validation-required-message="Informe o seu número de celular." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Messagem</label><textarea class="form-control" id="message" rows="5" placeholder="Messagem" required="required" data-validation-required-message="Digite a mensagem que deseja enviar."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <br />
+                            <div id="success"></div>
+                            <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Enviar</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Footer-->
         <footer class="footer text-center" style="background-color: #00420C;">
             <div class="container">
@@ -306,7 +355,7 @@
                                     <p class="mb-5" style="text-align: left;">
                                         O Repositório Institucional UFAM (RIU) é uma plataforma digital aberta com o objetivo de armazenar, preservar, divulgar e oferecer o acesso a produção  técnico e científica da UFAM A disponibilização da produção científica no RIU garante ao aluno, professor, técnico  e demais colaboradores: tornar a produção mais visível pelos motores de busca na Internet; possibilitar o aumento das citações e do impacto da produção científica; garantir a preservação dessa produção em ambiente digital; e oferecer um endereço eletrônico confiável e único para a produção científica do pesquisador, garantindo assim o seu acesso permanente.
                                     </p>
-                                    <a href="https://www.riu.ufam.edu.br/" class="btn btn-primary">Acessar</a>
+                                    <a href="http://riu.ufam.edu.br/" class="btn btn-primary">Acessar</a>
                                 </div>
                             </div>
                         </div>
